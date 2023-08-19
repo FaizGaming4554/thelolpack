@@ -79,3 +79,19 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+/* ... previous styles ... */
+
+.texture-pack {
+    /* ... previous styles ... */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+}
+
+.texture-pack.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ... previous styles ... */
+
