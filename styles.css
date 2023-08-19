@@ -1,11 +1,13 @@
 /* Reset some default styles */
-body, h1, h2, p, a {
+body, h1, h2, p, a, img {
     margin: 0;
     padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
 }
 
 header {
@@ -16,17 +18,45 @@ header {
 }
 
 main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 2rem;
 }
 
 .texture-pack {
-    margin-bottom: 2rem;
-    border: 1px solid #ccc;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 300px;
+}
+
+.texture-pack:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.texture-pack img {
+    max-width: 100%;
+    display: block;
+}
+
+.texture-pack-info {
     padding: 1rem;
 }
 
 .texture-pack h2 {
     margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.texture-pack p {
+    color: #666;
+    margin-bottom: 1rem;
 }
 
 .texture-pack a {
