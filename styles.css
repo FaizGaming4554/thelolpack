@@ -1,12 +1,12 @@
 /* ... previous styles ... */
 
 body {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Light text color for better contrast */
+    background-color: #1a1a1a; /* Dark background color */
+    color: #c8c8c8; /* Light text color for better contrast */
 }
 
 header {
-    background-color: #222; /* Darker header background color */
+    background-color: #161616; /* Darker header background color */
     /* ... previous styles ... */
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 .texture-pack {
-    background-color: #444; /* Darker texture pack background color */
+    background-color: #202020; /* Darker texture pack background color */
     /* ... previous styles ... */
 }
 
@@ -25,14 +25,14 @@ header {
 
 /* Update link colors for better visibility in dark theme */
 .texture-pack a {
-    background-color: #555;
-    color: #fff;
+    background-color: #1c1c1c;
+    color: #c8c8c8;
 }
 
 footer {
-    background-color: #222; /* Darker footer background color */
+    background-color: #161616; /* Darker footer background color */
     /* ... previous styles ... */
 }
 
-/* Additional styles for dark theme */
+/* Additional styles for Minecraft theme */
 /* ... */
