@@ -1,97 +1,38 @@
-/* Reset some default styles */
-body, h1, h2, p, a, img {
-    margin: 0;
-    padding: 0;
-    border: none;
-    font-family: Arial, sans-serif;
-}
+/* ... previous styles ... */
 
 body {
-    background-color: #f7f7f7;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Light text color for better contrast */
 }
 
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
+    background-color: #222; /* Darker header background color */
+    /* ... previous styles ... */
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
+.main {
+    /* ... previous styles ... */
 }
 
 .texture-pack {
-    background-color: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-    max-width: 300px;
-}
-
-.texture-pack:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-}
-
-.texture-pack img {
-    max-width: 100%;
-    display: block;
+    background-color: #444; /* Darker texture pack background color */
+    /* ... previous styles ... */
 }
 
 .texture-pack-info {
-    padding: 1rem;
+    /* ... previous styles ... */
 }
 
-.texture-pack h2 {
-    margin-bottom: 0.5rem;
-    color: #333;
-}
-
-.texture-pack p {
-    color: #666;
-    margin-bottom: 1rem;
-}
-
+/* Update link colors for better visibility in dark theme */
 .texture-pack a {
-    display: inline-block;
-    background-color: #333;
-    color: white;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.texture-pack a:hover {
     background-color: #555;
+    color: #fff;
 }
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-}
-/* ... previous styles ... */
-
-.texture-pack {
+    background-color: #222; /* Darker footer background color */
     /* ... previous styles ... */
-    opacity: 0;
-    transform: translateY(20px);
-    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
 }
 
-.texture-pack.fade-in {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* ... previous styles ... */
-
+/* Additional styles for dark theme */
+/* ... */
